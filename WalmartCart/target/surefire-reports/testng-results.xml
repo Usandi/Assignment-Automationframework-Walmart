@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="25383" started-at="2020-06-13T16:49:08 PDT" finished-at="2020-06-13T16:49:33 PDT">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="25383" started-at="2020-06-13T16:49:08 PDT" finished-at="2020-06-13T16:49:33 PDT">
+      <class name="com.Project.WalmartCart.Test.BasePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="beforeSuite" is-config="true" duration-ms="30" started-at="2020-06-13T16:49:08 PDT" finished-at="2020-06-13T16:49:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initializedriver()[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="initializedriver" is-config="true" duration-ms="9557" started-at="2020-06-13T16:49:08 PDT" finished-at="2020-06-13T16:49:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method status="PASS" signature="SearchResultPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="SearchResultPageTest" duration-ms="5156" started-at="2020-06-13T16:49:17 PDT" data-provider="searchData" finished-at="2020-06-13T16:49:22 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[infant toys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[infant toys - Walmart.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="takeScreenShots" is-config="true" duration-ms="0" started-at="2020-06-13T16:49:22 PDT" finished-at="2020-06-13T16:49:22 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchResultPageTest status=SUCCESS method=BasePageTest.SearchResultPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="SearchProductsPageTest(int, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="SearchProductsPageTest" duration-ms="1404" started-at="2020-06-13T16:49:22 PDT" data-provider="productsData" depends-on-methods="com.Project.WalmartCart.Test.BasePageTest.SearchResultPageTest" finished-at="2020-06-13T16:49:24 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductsPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="takeScreenShots" is-config="true" duration-ms="0" started-at="2020-06-13T16:49:24 PDT" finished-at="2020-06-13T16:49:24 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProductsPageTest status=SUCCESS method=BasePageTest.SearchProductsPageTest(int, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="ProductPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="ProductPageTest" duration-ms="5208" started-at="2020-06-13T16:49:24 PDT" data-provider="productData" depends-on-methods="com.Project.WalmartCart.Test.BasePageTest.SearchProductsPageTest" finished-at="2020-06-13T16:49:29 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Walmart # 579798970]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fisher-Price Baby’s First Blocks & Rock-a-Stack, Plant-Based Toys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="takeScreenShots" is-config="true" duration-ms="0" started-at="2020-06-13T16:49:29 PDT" finished-at="2020-06-13T16:49:29 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductPageTest status=SUCCESS method=BasePageTest.ProductPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="CartPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="CartPageTest" duration-ms="3248" started-at="2020-06-13T16:49:29 PDT" data-provider="cartData" depends-on-methods="com.Project.WalmartCart.Test.BasePageTest.ProductPageTest" finished-at="2020-06-13T16:49:32 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fisher-Price Baby’s First Blocks & Rock-a-Stack, Plant-Based Toys - Walmart.com - Walmart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fisher-Price Baby’s First Blocks & Rock-a-Stack, Plant-Based Toys]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="takeScreenShots" is-config="true" duration-ms="0" started-at="2020-06-13T16:49:32 PDT" finished-at="2020-06-13T16:49:32 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CartPageTest status=SUCCESS method=BasePageTest.CartPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@ff5b51f]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2020-06-13T16:49:32 PDT" finished-at="2020-06-13T16:49:33 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Project.WalmartCart.Test.BasePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

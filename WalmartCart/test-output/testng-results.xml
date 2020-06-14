@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="32426" started-at="2020-06-11T21:58:02 PDT" finished-at="2020-06-11T21:58:34 PDT">
+    <groups>
+    </groups>
+    <test name="C:/Usha/WalmartCart" duration-ms="32426" started-at="2020-06-11T21:58:02 PDT" finished-at="2020-06-11T21:58:34 PDT">
+      <class name="com.Project.WalmartCart.Test.BasePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2020-06-11T21:58:02 PDT" finished-at="2020-06-11T21:58:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initializedriver()[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="initializedriver" is-config="true" duration-ms="5633" started-at="2020-06-11T21:58:02 PDT" finished-at="2020-06-11T21:58:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializedriver -->
+        <test-method status="PASS" signature="SearchResultPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="SearchResultPageTest" duration-ms="3904" started-at="2020-06-11T21:58:08 PDT" data-provider="searchData" finished-at="2020-06-11T21:58:12 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[infant toys]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[infant toys - Walmart.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchResultPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="takeScreenShots" is-config="true" duration-ms="1" started-at="2020-06-11T21:58:12 PDT" finished-at="2020-06-11T21:58:12 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchResultPageTest status=SUCCESS method=BasePageTest.SearchResultPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="SearchProductsPageTest(int, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="SearchProductsPageTest" duration-ms="1053" started-at="2020-06-11T21:58:12 PDT" data-provider="productsData" depends-on-methods="com.Project.WalmartCart.Test.BasePageTest.SearchResultPageTest" finished-at="2020-06-11T21:58:13 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductsPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="takeScreenShots" is-config="true" duration-ms="0" started-at="2020-06-11T21:58:13 PDT" finished-at="2020-06-11T21:58:13 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchProductsPageTest status=SUCCESS method=BasePageTest.SearchProductsPageTest(int, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="ProductPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="ProductPageTest" duration-ms="19056" started-at="2020-06-11T21:58:13 PDT" data-provider="productData" depends-on-methods="com.Project.WalmartCart.Test.BasePageTest.SearchProductsPageTest" finished-at="2020-06-11T21:58:32 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Walmart # 555023764]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baby Einstein Take Along Tunes Musical Toy, Ages 3 months +]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="takeScreenShots" is-config="true" duration-ms="0" started-at="2020-06-11T21:58:32 PDT" finished-at="2020-06-11T21:58:32 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductPageTest status=SUCCESS method=BasePageTest.ProductPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="CartPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="CartPageTest" duration-ms="2087" started-at="2020-06-11T21:58:32 PDT" data-provider="cartData" depends-on-methods="com.Project.WalmartCart.Test.BasePageTest.ProductPageTest" finished-at="2020-06-11T21:58:34 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Baby Einstein Take Along Tunes Musical Toy, Ages 3 months + - Walmart.com - Walmart.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baby Einstein Take Along Tunes Musical Toy, Ages 3 months +]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartPageTest -->
+        <test-method status="PASS" signature="takeScreenShots(org.testng.ITestResult)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="takeScreenShots" is-config="true" duration-ms="0" started-at="2020-06-11T21:58:34 PDT" finished-at="2020-06-11T21:58:34 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CartPageTest status=SUCCESS method=BasePageTest.CartPageTest(java.lang.String, java.lang.String)[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShots -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Project.WalmartCart.Test.BasePageTest@1d057a39]" name="closeBrowser" is-config="true" duration-ms="661" started-at="2020-06-11T21:58:34 PDT" finished-at="2020-06-11T21:58:34 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Project.WalmartCart.Test.BasePageTest -->
+    </test> <!-- C:/Usha/WalmartCart -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

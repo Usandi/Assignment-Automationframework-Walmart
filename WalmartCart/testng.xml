@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Usha/WalmartCart">
+        <classes>
+            <class name="com.Project.WalmartCart.Test.BasePageTest">
+                <methods>
+                    <include name="SearchResultPageTest"/>
+                    <include name="SearchProductsPageTest"/>
+                    <include name="ProductPageTest"/>
+                    <include name="CartPageTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
