@@ -13,3 +13,7 @@
  * SearchProductsPage - get number of products per page, number of pages and assert
  * ProductPage - click the first specific product, get item number, item description, add to cart and assert info
  * CartPage - get page title, item description and assert if the chosen product is same as the product in the cart*/
+
+
+To execute the framework from command prompt using mvn-
+go to the project directory--mvn clean test
